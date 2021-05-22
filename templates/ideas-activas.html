@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>##nombre##</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/png" href="/imgs/inveswes_favicon.png">
+</head>
+<body>
+    <div class="topnav">
+        ##topnav##
+    </div>
+    <div class="main cartera">
+        <div class="row">
+            <div class="col-6 container-left">
+                ##col-izquierda##
+            </div>
+            <div class="col-6 container-left valores">
+                <h2>Valores</h2> <br>
+                <div class="finder" id="finder">
+                    <input type="text" id="buscar" onkeyup="searching()" placeholder="Buscar en la tabla..." title="Buscar..." autofocus>
+                    <!--<a href="" class="btn-finder">Nuevo</a>-->
+                </div>
+                <table style="width:100%" id="table-cartera">
+                    <tr>
+                        <th>Símbolo</th>
+                        <th>Precio Compra</th>
+                        <th>Precio Actual</th>
+                        <th>Cantidad</th>
+                        <th>+/- ($)</th>
+                        <th>+/- (%)</th>
+                        <th></th>
+                    </tr>
+                    ##tr##          
+                </table> 
+            </div>
+        </div>
+    </div>
+    ##footer##
+</body>
+</html>

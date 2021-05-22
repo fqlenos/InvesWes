@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/png" href="/imgs/inveswes_favicon.png">
+</head>
+<body>
+    <div class="topnav">
+        <img src="/imgs/inveswes2.png" alt="">
+        <a href="/inicio.php">Why InvesWes?</a>
+        <div class="topnav-right">
+            <a href="/logout.php">Cerrar sesión</a> 
+        </div>
+    </div>
+    <div class="main acceso">
+        <h1>Verifica tu correo</h1> 
+        <div class="row">
+            <div class="col-6">
+                <div class="content">
+                    <img src="/imgs/inveswes2.png" class="logo"></img>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="form login">
+                    <label><span>Correo electrónico de acceso</span>
+                        <input type="text" value="##email##" id="email" disabled>
+                    </label>
+                    <label><span>Código de verificación</span>
+                        <input type="number" min="0" max="999999" name="token" id="token" autofocus>
+                    </label>
+                    <button class="btn" name="verificar" id="verificar" type="submit">Verificar correo</button>
+                </div>
+                <div class="paragraph">
+                    <p>Revisa tu bandeja de entrada.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/verificacion.js" defer async></script>
+    ##footer##
+</body>
+</html>

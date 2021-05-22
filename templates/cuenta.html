@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi cuenta</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/png" href="/imgs/inveswes_favicon.png">
+</head>
+<body>
+    <div class="topnav">
+        ##topnav##
+    </div>
+    <div class="main acceso">
+        <h1>Mi cuenta</h1> 
+        <div class="row cuenta">
+            <div class="col-6">
+                <div class="menu">
+                    ##menu##
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="form">
+                    <label><span>Nombre</span>
+                        <input type="text" name="nombre" id="nombre"  value="##nombre##" autofocus>
+                    </label>
+                    <label><span>Apellidos</span>
+                        <input type="text" name="apellidos" id="apellidos" value="##apellidos##">
+                    </label>
+                    <label><span>Correo electrónico</span>
+                        <input disabled value="##email##">
+                    </label>
+                    <button class="btn" name="cuenta" id="cuenta" type="submit">Actualizar datos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/updates.js" defer async></script>
+    ##footer##
+</body>
+</html>

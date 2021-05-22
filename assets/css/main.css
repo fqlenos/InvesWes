@@ -1,0 +1,1207 @@
+/* General styles */
+
+html {
+    font-family: Gotham SSm A, Gotham SSm B, Century Gothic, Arial;
+}
+
+body {
+    margin: 0;
+    color: #fff;
+    background-color: #000;
+    letter-spacing: .03125rem;
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+}
+
+a:hover {
+    color: rgba(0, 128, 128, 0.6);
+}
+
+.main {
+    padding-top: 84px;
+}
+
+.inicio {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.cartera {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.row {
+    min-height: 40.6rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    position: relative;
+    border: 1px solid #000;
+}
+
+.btn-row .pop {
+    display: none;
+    width: 100%;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 100%;
+}
+
+.btn-row .show {
+    display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.para_cartera {
+    padding: 0.5rem;
+    padding-top: 0.5rem !important;
+}
+
+.para_cartera ul {
+    list-style-type: none;
+}
+
+.para_cartera ul li {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #a1a1a1;
+}
+
+.para_cartera ul li p {
+    padding-left: 0.7rem;
+    font-size: 1rem;
+    font-style: normal;
+    color: white;
+}
+
+.no_sus .container-left {
+    width: 40%;
+    position: fixed;
+    top: 5.5rem;
+    padding-top: 0;
+    margin-top: 1rem;
+    margin-bottom: auto;
+    min-height: unset;
+    padding-right: 1rem;
+    background-color: transparent !important;
+    padding: 1.5rem !important;
+    margin-left: 0 !important;
+}
+
+.container-left:last-child {
+    background-color: #262626;
+    padding: 1.5rem;
+}
+
+
+/* Rest */
+
+.home .row {
+    background-color: #262626;
+    max-width: 100%;
+}
+
+.inicio .row {
+    background-image: radial-gradient(circle at 50% 0, hsla(0, 0%, 63%, .3), rgba(26, 26, 26, .3) 58%, #000 75%);
+    max-width: 80rem;
+}
+
+.cartera .row {
+    background-image: radial-gradient(circle at 50% 0, hsla(0, 0%, 63%, .3), rgba(26, 26, 26, .3) 58%, #000 75%);
+    max-width: 80rem;
+}
+
+.no_sus .row {
+    background-image: radial-gradient(circle at 50% 0, hsla(0, 0%, 63%, .3), rgba(26, 26, 26, .3) 58%, #000 75%);
+    max-width: 80rem;
+}
+
+.error {
+    text-align: center;
+    padding-left: 2rem;
+}
+
+.error h1,
+.error h2 {
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+.error .row {
+    background-image: radial-gradient(circle at 50% 0, hsla(0, 0%, 63%, .3), rgba(26, 26, 26, .3) 50%, #000 75%);
+}
+
+.error .error-div a.btn {
+    text-align: center;
+    color: #fff;
+    background-color: teal;
+    display: inline-block;
+    padding: 1.25rem;
+    margin: 2.5rem 0 0;
+    min-width: 15%;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    white-space: normal;
+    border-radius: .2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    transition-duration: .15s;
+}
+
+.error a.btn:hover {
+    opacity: 0.8;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 30%;
+}
+
+.col-7 {
+    width: 70%;
+}
+
+.footer {
+    position: relative;
+    opacity: 1;
+    z-index: 99;
+    margin-bottom: 0px;
+    margin-top: 5rem;
+    padding: 1.875rem 0;
+    margin-right: 1.875rem;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.04rem;
+}
+
+.footer .text {
+    color: grey;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Add styles to main page */
+
+.container-left {
+    padding-top: 0;
+    margin-top: 6.25rem;
+    margin-bottom: auto;
+    min-height: unset;
+    padding-right: 1rem;
+}
+
+.cartera .container-left {
+    padding-top: 0;
+    margin-top: 4rem;
+    margin-bottom: auto;
+    min-height: unset;
+    padding-right: 1rem;
+}
+
+.container-left:last-child {
+    background-color: #262626;
+    padding: 1.5rem;
+}
+
+.container-left:last-child input {
+    color: #000;
+    height: 2.2rem;
+    width: 50%;
+    display: inline-block;
+    border: .062543rem solid #828282;
+    border-radius: 0;
+    background-color: #dcdcdc;
+    padding: 0 .5rem;
+    transition: background-color .5s;
+}
+
+.container-left:last-child table {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container-left:last-child table,
+th,
+td {
+    font-size: 0.67rem;
+    padding: .6rem;
+    letter-spacing: 0.08rem;
+    border-collapse: collapse;
+}
+
+table td a {
+    display: block;
+    color: #fff;
+    cursor: pointer;
+}
+
+table td a:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.container-left:last-child tr:first-child {
+    background-color: #222 !important;
+    text-transform: uppercase;
+}
+
+.container-left:last-child tr:nth-child(odd) {
+    background-color: #444;
+}
+
+.container-left:last-child tr:nth-child(even) {
+    background-color: #666;
+}
+
+.container-left h1 {
+    margin: 0px !important;
+    font-size: 3.25rem;
+    max-width: 35rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.container-left h2 {
+    margin: 0px !important;
+    font-size: 2rem;
+    max-width: 35rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.container-left .info {
+    margin-top: 1.5625rem;
+    text-align: left;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.finder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a.btn-finder {
+    text-align: center;
+    display: inline;
+    color: #fff;
+    background-color: teal;
+    padding: 0.8rem;
+    margin: 0 1rem;
+    max-width: 50%;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: .2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+input#buscar {
+    color: #000;
+    height: 2.2rem;
+    width: 40%;
+    display: inline-block;
+    border: .062543rem solid #828282;
+    border-radius: 0;
+    background-color: #dcdcdc;
+    padding: 0 .5rem;
+    transition: background-color .5s;
+}
+
+.finder select {
+    width: 30%;
+    color: #000;
+    height: 3rem;
+    display: inline-block;
+    border: .062543rem solid #828282;
+    border-radius: 0;
+    background-color: #dcdcdc;
+    padding: 0 .5rem;
+    transition: background-color .5s;
+    line-height: normal;
+    order: 2;
+}
+
+.container-left a.btn {
+    text-align: center;
+    color: #fff;
+    background-color: teal;
+    display: inline-block;
+    padding: 1.25rem;
+    margin: 2.5rem 0 0;
+    min-width: 20%;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    height: auto;
+    white-space: normal;
+    position: relative;
+    border-radius: .2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+.container-left a:hover {
+    opacity: 0.8;
+}
+
+.inicio .row .col-6 .panel {
+    display: block;
+    padding: 6.25rem;
+}
+
+.inicio .row .col-6 .panel .fila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio .row .col-6 .panel .fila img {
+    flex-direction: column;
+    max-width: 25%;
+    padding: 0.5rem;
+}
+
+
+/* Add style to home page */
+
+.home .row .global {
+    padding: 1.875rem 0 0;
+    position: relative;
+    margin-bottom: 1.25rem;
+    width: 82rem;
+    z-index: 2;
+}
+
+.home .row .global .vision {
+    text-align: center;
+    margin: 0 0.8rem;
+    overflow: auto;
+}
+
+.home .row .global .vision h1 {
+    text-transform: uppercase;
+}
+
+.home .row .global .vision .carousel {
+    color: #fff;
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: .625rem;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+    position: relative;
+    min-height: 288px !important;
+    min-width: 288px !important;
+    border: 2px solid black !important;
+    border-radius: 0.5rem;
+    background-color: rgba(26, 26, 26, 0.6);
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.home .row .global .vision .carousel .nombre {
+    padding: 1.5rem;
+    font-weight: 100;
+    position: absolute;
+    bottom: 1rem;
+    left: 0px;
+    right: 0px;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.home .row .global .vision .carousel .novedad {
+    background-color: teal;
+    font-weight: 600;
+    font-size: .85rem;
+    text-transform: uppercase;
+    border-radius: 6rem;
+    box-shadow: 0 .03125rem .25rem 0 rgba(0, 0, 0, .45);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    pointer-events: none;
+    z-index: 2;
+    position: absolute;
+    left: .5rem;
+    top: .5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    max-width: 82%;
+    padding: 0 .625rem;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.home .row .global .vision .carousel .titulo {
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    z-index: 2;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+/* Add style to canal page */
+
+.canal .row .col-6 .menu {
+    position: fixed;
+    right: 55%;
+    display: block;
+}
+
+.canal .row .col-6 .menu a:first-child {
+    margin-top: 1rem;
+}
+
+.canal .row .col-6 .menu span:first-of-type,
+.canal .row .col-6 .menu span:last-of-type {
+    margin-top: 2rem;
+}
+
+.canal .row .col-6 .menu a {
+    text-decoration: underline !important;
+    text-underline-offset: 0.6em;
+}
+
+.canal .row .col-6 .menu span {
+    text-transform: none !important;
+    font-style: italic;
+    font-size: 1rem !important;
+    color: gray !important;
+}
+
+.canal .row .col-6 .menu a,
+.canal .row .col-6 .menu span {
+    display: block;
+    text-align: right;
+    color: #fff;
+    display: inline-block;
+    padding: 0.7rem;
+    min-width: 100%;
+    font-size: 1.15rem;
+    font-weight: 100;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    transition-duration: .15s;
+}
+
+.canal .row .col-6 .menu a {
+    cursor: pointer;
+}
+
+.canal .row .col-6 .menu a.active {
+    color: teal;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 0.6em;
+}
+
+.canal .row .col-6 .menu a:hover {
+    opacity: 0.4;
+}
+
+
+/* Add style to sign in page */
+
+.acceso .row {
+    overflow: visible;
+    max-width: 55rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+.acceso h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 2.25rem;
+    font-weight: 100 !important;
+    text-align: center;
+    font-size: 3.125rem;
+    line-height: 3.3125rem;
+    padding: 0;
+    letter-spacing: .25rem;
+}
+
+.acceso .row .col-6 {
+    padding-left: 1.4375rem;
+    padding-right: 1.4375rem;
+    display: block;
+    flex: 0 0 auto;
+    overflow: visible;
+}
+
+.acceso .row .col-6:first-child {
+    max-width: 61rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acceso .row .col-6 .content {
+    background-color: #1a1a1a;
+    margin-bottom: 3rem;
+}
+
+.acceso .row .col-6 .content .img {
+    height: 10.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acceso .row .col-6 .content .info {
+    padding: 1rem;
+    padding-right: 16px;
+    display: block;
+    overflow-y: auto;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: .03125rem;
+}
+
+.acceso .row .col-6 .content .info .title {
+    margin-bottom: 0.75rem;
+    line-height: 1.275rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-size: 1.3rem;
+    letter-spacing: .03125rem;
+}
+
+.list>ul>li {
+    padding-left: 1.75rem;
+    position: relative;
+}
+
+.list ul>ul li {
+    margin-top: 0.2rem;
+    margin-bottom: .625rem;
+    font-size: .875em;
+    line-height: 1.125em;
+    color: #a1a1a1;
+}
+
+.list ul {
+    margin-bottom: 1rem;
+}
+
+.list ul:last-child {
+    padding-bottom: 0;
+}
+
+.list li {
+    display: block;
+}
+
+.list>ul>li::before {
+    border-right: .125rem solid teal;
+    border-top: .125rem solid teal;
+    content: "";
+    height: 1em;
+    width: .5em;
+    display: block;
+    transform: scaleX(-1) rotate(135deg);
+    transform-origin: left top;
+    position: absolute;
+    top: .55em;
+    left: 0;
+}
+
+.acceso .row .col-6 .paragraph {
+    margin-bottom: .75rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    letter-spacing: .05125rem;
+}
+
+.acceso .row .col-6 .paragraph a.btn {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    line-height: 1.875rem;
+    padding-left: 1.25rem;
+    display: inline-block;
+    margin: 0;
+    padding: 0.2rem 3rem;
+    background: none;
+    height: auto;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: baseline;
+    border: .0625rem solid white;
+    border-radius: 1rem;
+    white-space: nowrap;
+    transition-property: background-color, color, border-color;
+    transition-duration: .15s;
+    font-weight: 300;
+}
+
+.acceso .row .col-6 .paragraph a.btn:hover {
+    background-color: teal;
+    color: #000;
+    border: .0625rem solid transparent;
+}
+
+.acceso .row .col-6 .form {
+    max-width: 23rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: .03125rem;
+}
+
+.retirar {
+    padding-top: 1.5rem;
+}
+
+.retirar label span {
+    order: 1;
+    font-size: .9rem;
+    line-height: .9rem;
+    color: #a1a1a1;
+    font-weight: 500;
+    padding-bottom: 0.3rem;
+}
+
+.retirar label {
+    overflow: visible;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    margin-bottom: 1.2rem;
+    position: relative;
+    justify-content: flex-start;
+    display: flex;
+    height: auto;
+    backface-visibility: hidden;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.retirar label input {
+    width: 60% !important;
+    color: #000;
+    height: 3rem;
+    display: inline-block;
+    border: .062543rem solid #828282;
+    border-radius: 0;
+    background-color: #dcdcdc;
+    padding: 0 .5rem;
+    transition: background-color .5s;
+    line-height: normal;
+    order: 2;
+}
+
+.retirar .btn {
+    width: 64% !important;
+    border: 0.1rem solid transparent;
+    color: #fff;
+    display: inline-block;
+    background-color: teal;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding: 0;
+    margin: 0;
+    min-width: 10.3rem;
+    width: 40%;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    font-size: .875rem;
+    font-weight: 500;
+    position: relative;
+    transition-property: background-color, color, border-color;
+    transition-duration: .15s;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.retirar button:hover {
+    opacity: 0.8;
+    transition-duration: .15s;
+}
+
+.acceso .row .col-6 .form label span {
+    order: 1;
+    font-size: .9rem;
+    line-height: .9rem;
+    color: #a1a1a1;
+    font-weight: 500;
+    padding-bottom: 0.3rem;
+}
+
+.acceso .row .col-6 .form label {
+    overflow: visible;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    margin-bottom: 1.875rem;
+    position: relative;
+    justify-content: flex-start;
+    display: flex;
+    height: auto;
+    backface-visibility: hidden;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.acceso .row .col-6 .form label input {
+    color: #000;
+    height: 3rem;
+    display: inline-block;
+    border: .062543rem solid #828282;
+    border-radius: 0;
+    background-color: #dcdcdc;
+    padding: 0 .5rem;
+    transition: background-color .5s;
+    line-height: normal;
+    order: 2;
+}
+
+.acceso .row .col-6 .form label textarea {
+    color: #000;
+    height: 3rem;
+    display: inline-block;
+    border: .062543rem solid #828282;
+    border-radius: 0;
+    background-color: #dcdcdc;
+    padding: 0 .5rem;
+    transition: background-color .5s;
+    line-height: normal;
+    order: 2;
+    max-width: 95%;
+    max-height: 15rem;
+}
+
+.acceso .row .col-6 .form label select {
+    color: #000;
+    height: 3rem;
+    display: inline-block;
+    border: .062543rem solid #828282;
+    border-radius: 0;
+    background-color: #dcdcdc;
+    padding: 0 .5rem;
+    transition: background-color .5s;
+    line-height: normal;
+    order: 2;
+}
+
+.acceso .row .col-6 .form .btn {
+    border: 0.1rem solid transparent;
+    color: #fff;
+    display: inline-block;
+    background-color: teal;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding: 0;
+    margin: 0;
+    min-width: 10.3rem;
+    width: 100%;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    font-size: .875rem;
+    font-weight: 500;
+    position: relative;
+    transition-property: background-color, color, border-color;
+    transition-duration: .15s;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.acceso .row .col-6 .form button:hover {
+    opacity: 0.8;
+    transition-duration: .15s;
+}
+
+
+/* Add style to account pages */
+
+.main .cuenta .col-6:first-child {
+    border-right: 1px solid gray;
+}
+
+.main .cuenta .col-6 .menu {
+    margin-bottom: 3rem;
+}
+
+.main .cuenta .col-6 .menu a:first-child {
+    margin-top: 0;
+}
+
+.main .cuenta .col-6 .menu a {
+    display: block;
+    text-align: left;
+    color: #fff;
+    display: inline-block;
+    padding: 1.25rem;
+    margin: .5rem 0 0;
+    min-width: 100%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    transition-duration: .15s;
+}
+
+.main .cuenta .col-6 .menu a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.6em;
+    opacity: 0.5;
+}
+
+.main .cuenta .col-6 .menu a.active {
+    text-decoration: underline;
+    text-underline-offset: 0.6em;
+    font-weight: 700;
+}
+
+.main .row .col-6 .description {
+    color: rgba(161, 161, 161);
+    padding: 1rem;
+}
+
+.description span {
+    font-weight: bold;
+}
+
+p {
+    font-weight: 100;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.main .row .col-6 .btn-row {
+    display: block;
+    padding: 1rem;
+    letter-spacing: 0.05rem;
+    position: absolute;
+    bottom: 6.5rem;
+}
+
+.main .row .col-6 .btn-row .btn {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    letter-spacing: .1rem;
+    line-height: 1.875rem;
+    padding-left: 1.25rem;
+    display: inline-block;
+    margin: 0.3rem;
+    padding: 0.2rem 3rem;
+    background: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: .0625rem solid #fff;
+    border-radius: 1rem;
+    white-space: nowrap;
+    font-weight: 100;
+}
+
+.main .row .col-6 .btn-row .btn:hover {
+    background-color: rgba(0, 128, 128, 0.6);
+    border: 1px solid transparent;
+    transition-duration: .15s;
+}
+
+.main .row .valores {
+    background-color: #262626;
+    padding: 1rem;
+}
+
+.valores input {
+    color: #000;
+    height: 2.2rem;
+    width: 50%;
+    display: inline-block;
+    border: .062543rem solid #828282;
+    border-radius: 0;
+    background-color: #dcdcdc;
+    padding: 0 .5rem;
+    transition: background-color .5s;
+}
+
+.valores table {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.valores table,
+th,
+td {
+    padding: .6rem;
+    letter-spacing: 0.08rem;
+    border-collapse: collapse;
+}
+
+.valores tr:first-child {
+    background-color: #222 !important;
+    text-transform: uppercase;
+}
+
+.valores tr:nth-child(odd) {
+    background-color: #444;
+}
+
+.valores tr:nth-child(even) {
+    background-color: #666;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 84px;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 3;
+    padding-left: 7rem;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-height: 84px;
+    padding-left: 1rem;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 33px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.topnav .topnav-right a.btn {
+    font-weight: 600;
+    display: block;
+    margin-top: 16px;
+    margin-right: 16px;
+    padding: 16px 16px;
+    line-height: 1rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    background: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0.0625rem solid white;
+    white-space: nowrap;
+    transition-property: background-color, color, border-color;
+    transition-duration: .15s;
+}
+
+.topnav .topnav-right a.btn:hover {
+    background-color: teal;
+    color: #000;
+    border: .0625rem solid transparent;
+    transition-duration: .15s;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    color: teal;
+    text-decoration: underline;
+    text-underline-offset: 0.6em;
+    transition-duration: .15s;
+    opacity: 0.6;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    color: teal;
+    text-decoration: underline;
+    text-underline-offset: 0.6em;
+}
+
+
+/* Add div to the right */
+
+.topnav-right {
+    float: right;
+    padding-right: 1rem;
+}
+
+.cartera .row .col-6 .form {
+    padding: 1rem;
+}
+
+.cartera .row .col-6 .form label span {
+    order: 1;
+    font-size: .9rem;
+    line-height: .9rem;
+    color: #a1a1a1;
+    font-weight: 500;
+    padding-bottom: 0.3rem;
+}
+
+.cartera .row .col-6 .form label {
+    overflow: visible;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    margin-bottom: 1.875rem;
+    position: relative;
+    justify-content: flex-start;
+    display: flex;
+    height: auto;
+    backface-visibility: hidden;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.cartera .row .col-6 .form label input {
+    width: 60%;
+    color: #000;
+    height: 3rem;
+    display: inline-block;
+    border: .062543rem solid #828282;
+    border-radius: 0;
+    background-color: #dcdcdc;
+    padding: 0 .5rem;
+    transition: background-color .5s;
+    line-height: normal;
+    order: 2;
+}
+
+.cartera .row .col-6 .form label select {
+    width: 64%;
+    color: #000;
+    height: 3rem;
+    display: inline-block;
+    border: .062543rem solid #828282;
+    border-radius: 0;
+    background-color: #dcdcdc;
+    padding: 0 .5rem;
+    transition: background-color .5s;
+    line-height: normal;
+    order: 2;
+}
+
+.cartera .row .col-6 .form .btn {
+    width: 64% !important;
+    border: 0.1rem solid transparent;
+    color: #fff;
+    display: inline-block;
+    background-color: teal;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding: 0;
+    margin: 0;
+    min-width: 10.3rem;
+    width: 100%;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    font-size: .875rem;
+    font-weight: 500;
+    position: relative;
+    transition-property: background-color, color, border-color;
+    transition-duration: .15s;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cartera .row .col-6 .form button:hover {
+    opacity: 0.8;
+    transition-duration: .15s;
+}

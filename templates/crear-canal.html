@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear canal</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/png" href="/imgs/inveswes_favicon.png">
+</head>
+<body>
+    <div class="topnav">
+        ##topnav##
+    </div>
+    <div class="main acceso">
+        <h1>Crear canal</h1> 
+        <div class="row">
+            <div class="col-6">
+                <div class="content">
+                    <img src="/imgs/inveswes2.png" class="logo"></img>
+                    <div class="info">
+                        <div class="title">
+                            ¡Muy importante!
+                        </div> 
+                        <div class="list">
+                            <ul>
+                                <li>Serás influyente.</li>
+                                <ul><li>Los usuarios ahora pueden imitar tus movimientos.</li></ul>
+                                <li>Debes ser experto en el área.</li>
+                                <ul><li>Cualquiera no puede gestionar un canal, requiere mucho compromiso y conocimiento.</li></ul>
+                            </ul>
+                        </div>   
+                    </div>
+                </div>
+                <!--
+                <div class="paragraph">
+                    <p>
+                        ¿El canal ya existe<br>
+                        y quieres formar parte de él?
+                    </p>
+                    <a class="btn" href="/unete-canal.php">Únete aquí</a>
+                </div>
+                -->
+            </div>
+            <div class="col-6">
+                <div class="form login">
+                    <label><span>Nombre del canal</span>
+                        <input type="text" name="nombre" id="nombre">
+                    </label>
+                    <label><span>Descripción del canal</span>
+                        <textarea type="text" name="descripcion" id="descripcion"></textarea>
+                    </label>
+                    <label><span>Precio suscripción (TLMCoins)</span>
+                        <input type="number" min="5" name="precio_diario" id="precio_diario">
+                    </label>
+                    <label><span>Wallet (sin clave)</span>
+                        <input type="number" min="0" name="wallet" id="wallet">
+                    </label>
+                    <button class="btn" name="crear_canal" id="crear_canal" type="submit">Crear canal</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/canal.js"></script>
+    ##footer##
+</body>
+</html>
