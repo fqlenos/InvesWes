@@ -13,3 +13,7 @@ InvesWes hace uso de una API propietaria de [cex.io](https://cex.io/rest-api#pub
 ## Desarrollo  
 
 Es una página web diseñada y creada para las asignaturas de __Servicios Web: Cliente__ y __Servicios Web: Servidor__ de la Universidad Pública de Navarra por __@fqlenos__.  
+
+## Usage  
+
+Por seguridad se han retirado los credenciales de PHPMailer. Pero es necesaria dicha configuración para la verificación de los usuarios recién registrados. Por lo que para su uso se han de establecer credenciales válidos. (PHPMailer está configurado para el servidor SMTP de Gmail).
