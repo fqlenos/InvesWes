@@ -14,9 +14,9 @@ class DB {
                 'mysql:charset=utf8;
                 host=db_server;
                 port=3306;
-                dbname=db_grupo21',
-                'grupo21',
-                'Pemohy8el0');
+                dbname=db',
+                'user',
+                'password');
             self::$con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             self::$con->setAttribute(PDO::ATTR_PERSISTENT, false);
 
